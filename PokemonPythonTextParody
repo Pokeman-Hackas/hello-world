@@ -1,0 +1,34 @@
+import random
+import time
+pokeballcount = 0
+potioncount = 0
+availablepokemon = ["Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise", "Caterpie", "Metapod", "Butterfree", "Weedle", "Kakuna", "Beedrill"]
+def pokeball():
+    pokeballchance = random.randint(1,1000)
+    print "You threw a Pokeball!"
+    time.sleep(1)
+    print "Going once..."
+    time.sleep(1)
+    print "Going twice..."
+    time.sleep(1)
+    pokeballtypeinput = raw_input("Which type of pokeball will you use out of: 'pokeball', 'ultraball', 'healball', and 'masterball'")
+    if pokeballtype == "pokeball":
+         pokeballchance + 0
+    elif pokeballtype == "ultraball":
+        pokeballchance + 100
+    elif pokeballtype == "masterball":
+        pokeballchance = 1000
+    elif pokeballtype == "healball":
+        pokeballchance + 0
+#def runaway():
+#def fight():
+def encounterpokemon():
+    pokemonencountered = random.choice(availablepokemon)
+#def ():
+while 1 == 1:
+    username = raw_input("Please input your username: ")
+    print ("Hello " + username + "!")
+    starterchoice = raw_input("Please choose a starter pokemon out of: Charmander, Squirtle, and Bulbasaur: ")
+    print ("Congragulations! You have chosen " + starterchoice + " as your starter Pokemon!")
+    
+
